@@ -1,0 +1,18 @@
+<resources>
+    <!--    共通-->
+    <string name="app_name">gatya</string>
+    <string name="tv_welcome">ようこそ</string>
+    <string name="bt_go_gatya">ガチャへ</string>
+    <string name="bt_go_collection">コレクションへ</string>
+<!--    ガチャ-->
+    <string name="bt_gatya_mawasu">回す</string>
+<!--    名前入力(start)-->
+    <string name="tv_start_ask_name">あなたの名前を入力してね</string>
+    <string name="et_start_input_name">ここに名前を入力</string>
+    <string name="bt_start_input_name">登録</string>
+    <!--    ガチャ結果-->
+    <string name="tv_result_title">ガチャ結果</string>
+    <string name="bt_retry">もう１回引く</string>
+    <!--    コレクション-->
+    <string name="tv_collection_title">さんのコレクション</string>
+</resources>

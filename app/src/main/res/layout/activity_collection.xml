@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCollectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_collection_title"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btCollectionGoGatya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_go_gatya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="650dp"
+        app:layout_constraintBottom_toTopOf="@+id/btCollectionGoGatya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCollectionTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCollection1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+            <ImageView
+                android:id="@+id/ivCollection5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/ivCollection15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_hatena" />
+
+            <TextView
+                android:id="@+id/tvCollection15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\?\?\?"
+                android:textSize="34sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
